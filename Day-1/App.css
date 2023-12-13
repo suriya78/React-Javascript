@@ -1,0 +1,26 @@
+nav
+{
+   background-color: rgb(180, 207, 198);
+   color: rgb(202, 231, 231);
+   padding:50px;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content:flex-end;
+    text-align: right;
+}
+nav li{
+   
+    font-size: 25px;
+    text-align: right;
+    margin-left: 10px;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(29, 28, 26);
+}
