@@ -1,0 +1,64 @@
+.for-img{
+  background-image: url("https://t3.ftcdn.net/jpg/03/55/78/64/360_F_355786497_jJSDVdC7ScRAUFKWlxKQ2X5tc52hSkw1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0%;
+}
+.service-portal {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 0%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+  
+.select-container {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+  
+.selected-info {
+    margin-top: 20px;
+}  
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+  
+.service {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.service img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+  
+.service h2 {
+    margin-top: 10px;
+}
+.contains{
+  text-align: center;
+  height:300px;
+}

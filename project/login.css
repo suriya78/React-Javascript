@@ -1,0 +1,84 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.pic
+{
+    display: flex;
+    mix-blend-mode: multiply;
+}
+.si{
+    margin-top:50px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: white;
+}
+.login-form { 
+    padding: 20px;
+    height:450px;
+    width:500px;
+    color:white;
+    text-align: center;
+    background-color: #0d0c0c;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-form:hover{
+   
+    box-shadow: 1px 2px 10px 2px black;
+}
+  .login-form h2 {
+    color: #fdfbfb;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.login-form label {
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: #fffbfb;
+    font-family:'Georgia';
+    font-weight: bold;
+}
+  
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.login-form button {
+    margin-top:25px;
+    background-color: #5a50ed;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: x-large;
+}
+.login-form .Link{
+    text-decoration: none;
+    color: #fdfbfb;
+}
+.login-form button:hover {
+    background-color: #4bdf73;
+}
