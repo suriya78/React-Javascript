@@ -1,0 +1,31 @@
+.about-us{
+    background:linear-gradient(light rgb(91, 129, 136),white)
+}
+.us{
+    align-items:center;
+    justify-content: center;
+    text-align:content;
+    background-color: beige;
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 100px;
+    box-shadow: hsl(0, 8%, 40%);
+    border-radius: 5%;
+  }
+  
+h2{
+    color: black;
+    text-align: center;
+}
+.head{
+    color:black;
+}
+.para{
+    color: black;
+    line-height: 3.0;
+    text-align: center;
+}
+  
