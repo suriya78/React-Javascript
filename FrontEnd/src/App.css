@@ -1,0 +1,115 @@
+/* App.css */
+
+/* Navbar Styling */
+.navbar {
+  background-color: #33547a; /* Deep blue background */
+  padding: 15px 30px; /* Adjusted padding for better spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff; /* White text color */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Added shadow for depth */
+  position: relative; /* Ensure positioning context for dropdown */
+  z-index: 1000; /* Ensure the navbar is on top of other content */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.navbar:hover {
+  background-color: #316599; /* Slightly darker blue on hover */
+}
+
+.navbar-logo {
+  text-decoration: none;
+}
+
+.logo-text {
+  font-size: 40px; /* Adjust size as needed */
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold; /* Optional: makes the text bold */
+  background: linear-gradient(to right, #ff6f61, #d43f8d); /* Gradient color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background 0.5s ease; /* Smooth gradient transition */
+}
+
+
+/* Navbar Menu */
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+  padding: 12px 25px;
+  display: block;
+  color: #ffffff; /* White text color */
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Smooth transitions for background, text color, and scale */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.navbar-link:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  color: #ffffff; /* Keep text color white on hover */
+  transform: scale(1.05); /* Slightly enlarge the link on hover */
+}
+
+/* App.css */
+
+/* Profile Menu */
+.profile-menu {
+  position: relative;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 100%; /* Positioned below the profile menu item */
+  left: 0;
+  background-color: #3c79a1; /* Bright blue background */
+  border-radius: 6px; /* Rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Shadow for dropdown */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  min-width: 180px; /* Minimum width for dropdown */
+  max-width: 100vw; /* Ensure it does not extend beyond viewport width */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  opacity: 0; /* Hidden by default */
+  visibility: hidden; /* Hidden by default */
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease; /* Smooth transitions */
+  z-index: 2000; /* Ensure the dropdown is on top of other content */
+  transform: translateY(10px); /* Slightly moved down initially */
+}
+
+.profile-menu:hover .profile-dropdown {
+  opacity: 1; /* Fully visible */
+  visibility: visible; /* Make it visible */
+  transform: translateY(0); /* Move to its original position */
+}
+
+/* Profile Dropdown Items */
+.profile-dropdown li {
+  padding: 8px 10px;
+  border-bottom: 1px solid #1e70c1; /* Darker blue border between items */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.profile-dropdown li:last-child {
+  border-bottom: none; /* No border on the last item */
+}
+
+
+
+.profile-dropdown .navbar-link {
+  color: #ffffff; /* White text color */
+  display: block; /* Full width clickable area */
+  transition: color 0.3s ease; /* Smooth color transition */
+  text-decoration: none; /* Remove underline */
+}
+
+.profile-dropdown .navbar-link:hover {
+  color: #ffcc00; /* Yellow text color on hover */
+}

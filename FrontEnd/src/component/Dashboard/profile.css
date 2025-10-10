@@ -1,0 +1,140 @@
+/* profile.css */
+
+/* Container for the profile page */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+  }
+  
+  /* Profile card styling */
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Profile image styling */
+  .profile-image-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bff;
+  }
+  
+  .image-upload {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #007bff;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .upload-button {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Profile details and form styling */
+  .profile-details {
+    width: 100%;
+  }
+  
+  .profile-details h1 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .profile-details p {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form label {
+    color: #333;
+    font-size: 1.1em;
+  }
+  
+  form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  form input:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #0056b3, #003d7a);
+    transform: scale(1.05);
+  }
+  
+  /* Edit mode specific styling */
+  button[type="button"] {
+    background: #cccccc;
+    color: #333;
+    border: none;
+  }
+  
+  button[type="button"]:hover {
+    background: #b3b3b3;
+    transform: scale(1.05);
+  }
+  
+  /* Error and loading message styling */
+  h1 {
+    color: #e74c3c;
+    font-size: 1.5em;
+  }
+  

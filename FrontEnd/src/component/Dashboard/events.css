@@ -1,0 +1,85 @@
+/* events.css */
+
+/* General Styles for Events Page */
+.events-page {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background for contrast */
+  color: #333; /* Dark text for readability */
+}
+
+.events-page h1 {
+  text-align: center;
+  color: #294a6d; /* Blue color for heading */
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+/* Event Cards Container */
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual Event Card */
+.event-card {
+  background: #ffffff; /* White background for cards */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Event Image */
+.event-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.event-card:hover .event-image {
+  opacity: 0.8; /* Slight fade effect on hover */
+}
+
+/* Event Details */
+.event-details {
+  padding: 20px;
+  color: #333;
+}
+
+.event-details h3 {
+  margin-top: 0;
+  color: #37679b; /* Blue color for event titles */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.event-details p {
+  margin: 5px 0;
+  color: #666; /* Light gray text for details */
+}
+
+/* Details Link */
+.details-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff; /* Blue button background */
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.details-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Subtle lift effect */
+}

@@ -1,0 +1,136 @@
+/* hostEvent.css */
+
+/* Container styling */
+.host-event-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Instructions styling */
+.form-instructions {
+  width: 100%;
+  background: linear-gradient(to right, #e2e2e2, #ffffff);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+
+.form-instructions h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.form-instructions p {
+  color: #666;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.form-instructions ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.form-instructions li {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+/* Form styling */
+.host-event-form {
+  width: 100%;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.form-input, .form-textarea, .form-select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #333;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-input:focus, .form-textarea:focus, .form-select:focus {
+  border-color: #007bff;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-submit {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.form-submit:hover {
+  background: linear-gradient(to right, #0056b3, #003d7a);
+  transform: scale(1.05);
+}
+
+/* File input styling */
+.form-input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+/* Popup message styling */
+.popup-message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #28a745;
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  font-size: 1.1em;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.popup-message.show {
+  opacity: 1;
+}
+

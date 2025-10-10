@@ -1,0 +1,48 @@
+/* about.css */
+
+.footer {
+  background-color: #ffffff; /* White background */
+  color: #333; /* Dark text color for contrast */
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #274769; /* Blue top border */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid #007bff; /* Blue accent color for headings */
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #333; /* Dark text color for headings */
+}
+
+.footer-section p {
+  margin: 5px 0;
+  color: #666; /* Lighter text color for paragraphs */
+}
+
+.footer-section a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd; /* Light border for separation */
+  padding-top: 10px;
+  color: #666; /* Lighter text color for footer bottom */
+}

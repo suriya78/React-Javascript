@@ -1,0 +1,107 @@
+.review-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+  background: #f4f7f9; /* Light background for contrast */
+}
+
+.review-form,
+.review-image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  max-height: 700px;
+  border-radius: 8px;
+}
+
+.review-form {
+  margin-right: 20px;
+  border: 1px solid #ddd; /* Light border for a subtle look */
+  border-radius: 12px; /* Rounded corners for a modern feel */
+  padding: 20px;
+  background-color: #ffffff; /* Clean white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.review-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff; /* White background for image container */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow with form */
+}
+
+.review-image img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.submission-message {
+  margin-top: 10px;
+  color: #28a745; /* Green color for success message */
+  font-weight: bold;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600; /* Bold labels for better readability */
+  color: #333; /* Dark color for labels */
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px; /* Increased padding for better touch */
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded corners for input fields */
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+form textarea {
+  resize: vertical; /* Allows vertical resizing */
+  min-height: 150px; /* Minimum height for textarea */
+}
+
+form button {
+  padding: 12px 20px;
+  background-color: #007bff; /* Primary blue button color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 8px; /* Rounded button corners */
+  cursor: pointer;
+  font-size: 16px; /* Larger font size for button text */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Star Rating */
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.star {
+  font-size: 24px; /* Larger star size */
+  color: #ccc; /* Default star color */
+  cursor: pointer;
+  transition: color 0.2s ease; /* Smooth color transition */
+}
+
+.star.filled {
+  color: #ffd700; /* Gold color for filled stars */
+}
